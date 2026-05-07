@@ -1,1 +1,35 @@
 ### Roadmap for DBMS
+
+
+This is the perfect way to approach MAANG and top-tier product company interviews. You don't need to memorize a thousand queries; you just need to master the core building blocks and understand how the database engine actually thinks.
+Here is your complete, structured DBMS blueprint. I have organized your requested topics—and added the missing high-level architectural concepts that top companies love to test—into five logical chunks.
+
+ The Ultimate DBMS Interview Blueprint
+
+**Chunk 1: Relational Fundamentals (The Core Theory)**
+- [ ]  * **Keys & Constraints:** Primary Key vs. Unique Key, Foreign Keys.
+- [ ]  * **Data Integrity:** The ACID Properties (Atomicity, Consistency, Isolation, Durability).
+- [ ]  * **Database Design:** Normalization (1NF, 2NF, 3NF, BCNF) and when to use Denormalization.
+
+**Chunk 2: SQL Execution & Aggregation (The Basics)**
+- [ ]  * **The SQL Engine:** Query Execution Order (How the database reads your query vs. how you write it).
+- [ ]  * **Basic Filtering:** The LIKE operator, IN, and BETWEEN.
+- [ ]  * **Summarizing Data:** GROUP BY + Aggregate Functions (COUNT, SUM, MAX, MIN). 
+- [ ]  * **Filtering Groups:** HAVING vs. WHERE (e.g., *Query: Each state having a male count > 10,000*).
+
+**Chunk 3: Relational Data Mapping (Connecting Tables)**
+- [ ]  * **The Joins:** Inner, Left, Right, Full Outer, and the highly-tested Self-Join.
+- [ ]  * **Nested Logic:** Subqueries (Correlated vs. Uncorrelated).
+- [ ]  * **Clean Code:** Common Table Expressions (CTEs / the WITH clause).
+
+**Chunk 4: Advanced SQL (The MAANG Favorites)**
+- [ ]  * **Window Functions Overview:** What the OVER() and PARTITION BY clauses do.
+- [ ]  * **Ranking:** ROW_NUMBER() vs. RANK() vs. DENSE_RANK().
+- [ ]  * **Classic Whiteboard Queries:** Finding the 2nd Highest Salary, Nth Highest Salary, and finding the top performer per department.
+
+**Chunk 5: Performance & Architecture (The Senior Level)**
+- [ ]  * **Fast Retrieval:** Indexing (How B-Trees work, Clustered vs. Non-Clustered Indexes).
+- [ ]  * **Query Optimization:** How to tune slow queries, reading Execution Plans, and why SELECT * is bad.
+- [ ]  * **Concurrency:** Isolation Levels (Read Committed, Repeatable Read, Serializable) and handling Deadlocks.
+This is your roadmap. We will take it one piece at a time, keeping the explanations completely jargon-free and the code incredibly simple.
+Shall we start with **Chunk 1: Relational Fundamentals**, specifically breaking down Primary vs. Unique keys and the ACID properties?
